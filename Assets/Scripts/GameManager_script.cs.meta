@@ -3,7 +3,52 @@ guid: 81bf8722f524eb74f8c13aa44dec2d63
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - storyText: {instanceID: 0}
+  - textChoiceA: {instanceID: 0}
+  - textChoiceB: {instanceID: 0}
+  - textChoiceC: {instanceID: 0}
+  - dropDownMenu: {instanceID: 0}
+  - walkthroughText: {instanceID: 0}
+  - buttonChoiceA: {instanceID: 0}
+  - buttonChoiceB: {instanceID: 0}
+  - buttonChoiceC: {instanceID: 0}
+  - imgageState1: {instanceID: 0}
+  - imgageState2: {instanceID: 0}
+  - imgageState3: {instanceID: 0}
+  - imgageState4: {instanceID: 0}
+  - imgageState5: {instanceID: 0}
+  - imgageState6: {instanceID: 0}
+  - imgageState7: {instanceID: 0}
+  - imgageState8: {instanceID: 0}
+  - imgageState9: {instanceID: 0}
+  - imgageState10: {instanceID: 0}
+  - imgageState11: {instanceID: 0}
+  - imgageState12: {instanceID: 0}
+  - imgageState13: {instanceID: 0}
+  - imgageState14: {instanceID: 0}
+  - imgageState15: {instanceID: 0}
+  - imgageState16: {instanceID: 0}
+  - imgageState1b: {instanceID: 0}
+  - imgageState2b: {instanceID: 0}
+  - imgageState3b: {instanceID: 0}
+  - imgageState4b: {instanceID: 0}
+  - imgageState5b: {instanceID: 0}
+  - imgageState6b: {instanceID: 0}
+  - imgageState7b: {instanceID: 0}
+  - imgageState8b: {instanceID: 0}
+  - imgageState9b: {instanceID: 0}
+  - imgageState10b: {instanceID: 0}
+  - imgageState11b: {instanceID: 0}
+  - imgageState12b: {instanceID: 0}
+  - imgageState13b: {instanceID: 0}
+  - imgageState14b: {instanceID: 0}
+  - imgageState15b: {instanceID: 0}
+  - imgageState16b: {instanceID: 0}
+  - _AudioSource: {instanceID: 0}
+  - _AudioClip1: {fileID: 8300000, guid: aea3bc4301eddd448b0b8fa8eae66d88, type: 3}
+  - _AudioClip2: {fileID: 8300000, guid: 2a0174821409ec94ba82d671d4bc36e3, type: 3}
+  - _AudioClip3: {fileID: 8300000, guid: e43869021c34b5e44b93f4d0abc331e7, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

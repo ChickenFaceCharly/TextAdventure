@@ -73,8 +73,12 @@ public class GameManager_script : MonoBehaviour
     bool dropDownMenuActive = false;
     bool walkthroughActive = false;
 
-    [SerializeField] AudioClip sfx;
-    AudioSource clickButton;
+    public AudioSource _AudioSource;
+    [SerializeField] AudioClip _AudioClip1;
+    [SerializeField] AudioClip _AudioClip2;
+    [SerializeField] AudioClip _AudioClip3;
+
+
 
 
     // has no Element
@@ -83,21 +87,21 @@ public class GameManager_script : MonoBehaviour
     //------------------------------------------------------------------------------------------------------------
     public void OnClickButtonChoiseA() 
     {
-        clickButton.PlayOneShot(sfx, 1);
+
         SelectChoice(1); 
     }
 
     //------------------------------------------------------------------------------------------------------------
     public void OnClickButtonChoiseB() 
     {
-        clickButton.PlayOneShot(sfx, 1);
+
         SelectChoice(2); 
     }
 
     //------------------------------------------------------------------------------------------------------------
     public void OnClickButtonChoiseC() 
     {
-        clickButton.PlayOneShot(sfx, 1);
+
         SelectChoice(3); 
     }
 
@@ -118,10 +122,7 @@ public class GameManager_script : MonoBehaviour
         }
     }
 
-    public void Awake()
-    {
-        clickButton = GetComponent<AudioSource>();
-    }
+
 
     //------------------------------------------------------------------------------------------------------------
     public void OnClickButtonGoToTitle()
