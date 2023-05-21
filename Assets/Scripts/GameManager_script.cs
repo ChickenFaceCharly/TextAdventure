@@ -336,8 +336,8 @@ public class GameManager_script : MonoBehaviour
             case State.State10:     // Elder Scrolls |V: Oblivion (2006)
                 ActivateButtons(4);
                 storyText.text = "'Stop right there, criminal scum!' Not exactly the friendliest greeting you've heard today. There's a guard standing in front of you, glaring nastily at you.\nHow do you respond to this obscenity ?";
-                textChoiceA.text = "Kämpfen";
-                textChoiceB.text = "Bestechen";
+                textChoiceA.text = "Fight";
+                textChoiceB.text = "Bribe";
                 //textChoiceC.text = "choiceCText State10";
                 imgageState10.SetActive(true);                
                 break;
